@@ -15,7 +15,7 @@ class Movie extends Model {
     );
   }
   static associate(models) {
-    // this.hasMany(models.Address, { foreignKey: 'userId', as: 'addresses' });
+    this.hasMany(models.Gender, { foreignKey: 'movieId', as: 'genders' });
 
     this.belongsToMany(models.Actor, {
       foreignKey: 'movieId',
