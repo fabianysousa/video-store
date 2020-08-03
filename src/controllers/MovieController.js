@@ -13,4 +13,11 @@ module.exports = {
 
     return res.json(movie);
   },
+  async alter(req, res) {
+    const { movieId, title, value } = req.body;
+    const movie = await Movie.findByPk(id);
+    const updatedMovie = await movie.update({ title, value });
+
+    return res.json(updatedMovie);
+  },
 };
