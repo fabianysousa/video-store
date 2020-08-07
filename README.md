@@ -24,7 +24,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [NPM](https://www.npmjs.com/)
 - [NodeJS](https://nodejs.org/en/)
-- [Sequelize](https://blog.rocketseat.com.br/nodejs-express-sequelize/#:~:text=O%20Sequelize%20%C3%A9%20um%20ORM,e%20linhas)%20para%20objetos%20Javascript.)
+- [Sequelize](https://blog.rocketseat.com.br/nodejs-express-sequelize/#:~:text=O%20Sequelize%20%C3%A9%20um%20ORM,e%20linhas)
 - [insomnia Core](https://insomnia.rest/download/)
 - [PostegreSQL](https://www.postgresql.org/download/)
 
